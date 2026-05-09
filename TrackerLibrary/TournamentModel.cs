@@ -13,5 +13,6 @@ namespace TrackerLibrary
         public List<TeamModel> EnteredTeams { get; set; } = new List<TeamModel>();
         public  List<PrizeModel> Prizes { get; set; } = new List<PrizeModel> { };
         public Lsit<List<MatchupModel>> Rounds { get; set; } = new Lsit<List<MatchupModel>> { };
+
     }
 }
